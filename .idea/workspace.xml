@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="62d28d53-e07b-47b5-a550-5b481a6375b2" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/plus-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbproject-j1" beforeDir="false" afterPath="$PROJECT_DIR$/../bbproject-j1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/babel.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/src/assets/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/src/store/index.js" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$USER_HOME$/mevan/work/plug" />
+        <option name="mavenHome" value="$USER_HOME$/mevan/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$USER_HOME$/mevan/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oFOBgJWz3ghfnnVk5YrfsZlpSx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62d28d53-e07b-47b5-a550-5b481a6375b2" name="默认更改列表" comment="" />
+      <created>1612878737195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612878737195</updated>
+      <workItem from="1612878738975" duration="401000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
