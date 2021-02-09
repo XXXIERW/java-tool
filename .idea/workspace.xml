@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62d28d53-e07b-47b5-a550-5b481a6375b2" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/plus-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbproject-j1" beforeDir="false" afterPath="$PROJECT_DIR$/../bbproject-j1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/.gitignore" beforeDir="false" />
@@ -17,6 +18,8 @@
       <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/src/components/HelloWorld.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/src/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/src/store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +28,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="develope_java" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -73,7 +81,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612878737195</updated>
-      <workItem from="1612878738975" duration="401000" />
+      <workItem from="1612878738975" duration="643000" />
+      <workItem from="1612880803968" duration="294000" />
     </task>
     <servers />
   </component>
@@ -85,7 +94,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
