@@ -2,24 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62d28d53-e07b-47b5-a550-5b481a6375b2" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/common/ICodeStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-web-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/JsonResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbproject-j1" beforeDir="false" afterPath="$PROJECT_DIR$/../bbproject-j1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/src/assets/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bbproject-v1/bbvueproject/src/store/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,13 +22,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/.." value="develope_java" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/plus-core/src/main/resources/logback-spring.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -57,7 +65,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.6656848" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.tool.core" />
+      <recent name="cn.tool" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -82,8 +99,19 @@
       <option name="presentableId" value="Default" />
       <updated>1612878737195</updated>
       <workItem from="1612878738975" duration="643000" />
-      <workItem from="1612880803968" duration="294000" />
+      <workItem from="1612880803968" duration="7891000" />
+      <workItem from="1612944907233" duration="1050000" />
+      <workItem from="1612946523273" duration="1044000" />
+      <workItem from="1612948071545" duration="869000" />
     </task>
+    <task id="LOCAL-00001" summary="忽略文件和基本文档的编写">
+      <created>1612881131613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612881131613</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,5 +129,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="忽略文件和基本文档的编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="忽略文件和基本文档的编写" />
   </component>
 </project>
