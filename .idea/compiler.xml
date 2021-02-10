@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="plus-demo" />
-        <module name="plus-web" />
-        <module name="plus-core" />
         <module name="plus-web-core" />
+        <module name="plus-demo" />
+        <module name="plus-core" />
+        <module name="plus-web" />
       </profile>
     </annotationProcessing>
   </component>
