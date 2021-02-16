@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62d28d53-e07b-47b5-a550-5b481a6375b2" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/plus-demo/src/main/java/controller/JsonUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-demo/src/main/java/model/user.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/JsonResult2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/annotation/ResponseResultBody.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/annotation/ResponseResultBodyAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-web/src/test/java/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/AutoGenerateCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-demo/src/main/java/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-demo/src/main/java/controller/CreateDaoAndService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-demo/src/main/java/controller/ResultController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/config/WebMvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/exception/ResponseResultBodyAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/exception/ResultException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/exception/ResultStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbproject-h1" beforeDir="false" afterPath="$PROJECT_DIR$/../bbproject-h1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbproject-j1" beforeDir="false" afterPath="$PROJECT_DIR$/../bbproject-j1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plus-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plus-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plus-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plus-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plus-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/JsonResult2.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/JsonResult2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/annotation/ResponseResultBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/annotation/ResponseResultBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/annotation/ResponseResultBodyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/annotation/ResponseResultBodyAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,6 +71,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6656848" />
@@ -73,8 +79,12 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="cn.tool.core" />
       <recent name="cn.tool" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -89,7 +99,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="plus-demo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test.Result2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="plus-web" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.test.Result2Test" />
       </list>
     </recent_temporary>
@@ -120,7 +138,9 @@
       <workItem from="1612880803968" duration="7891000" />
       <workItem from="1612944907233" duration="1050000" />
       <workItem from="1612946523273" duration="1044000" />
-      <workItem from="1612948071545" duration="5016000" />
+      <workItem from="1612948071545" duration="5119000" />
+      <workItem from="1613133511686" duration="377000" />
+      <workItem from="1613463574804" duration="7344000" />
     </task>
     <task id="LOCAL-00001" summary="忽略文件和基本文档的编写">
       <created>1612881131613</created>
@@ -151,6 +171,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="忽略文件和基本文档的编写" />
     <MESSAGE value="工具类string-&gt;json,json-&gt;string的编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="工具类string-&gt;json,json-&gt;string的编写" />
+    <MESSAGE value="增加全局JSON返回处理，并写入切面类 在返回的过程中进行统一处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加全局JSON返回处理，并写入切面类 在返回的过程中进行统一处理" />
   </component>
 </project>

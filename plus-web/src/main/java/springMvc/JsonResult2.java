@@ -51,8 +51,9 @@ public class JsonResult2<T> {
         return new JsonResult2<>(resultStatus, data);
     }
 
-    /** 业务异常返回业务代码和描述信息 */
-    public static <T> JsonResult2<T> failure() {
+    /** 业务异常返回业务代码和描述信息
+     * @param resultStatus*/
+    public static <T> JsonResult2<T> failure(springMvc.exception.ResultStatus resultStatus) {
         return new JsonResult2<>(ResultStatus.INTERNAL_SERVER_ERROR, null);
     }
 
@@ -67,6 +68,11 @@ public class JsonResult2<T> {
             return new JsonResult2<>(ResultStatus.INTERNAL_SERVER_ERROR, null);
         }
         return new JsonResult2<>(resultStatus, data);
+    }
+
+    /** 业务异常返回业务代码和描述信息 */
+    public static <T> JsonResult2<T> failure() {
+        return new JsonResult2<>(ResultStatus.INTERNAL_SERVER_ERROR, null);
     }
 
     /**

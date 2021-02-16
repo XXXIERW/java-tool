@@ -8,7 +8,7 @@ import java.lang.annotation.*;
  * <p>
  *      想要返回统一的 JSON 格式需要返回Result<Object>才可以, 我明明返回 Object 可以了,
  *      目的是为了配合ResultUtil2进行使用 返回类型随意但是返回回去的数据我们需要统一化JSON
- *
+ *      这个是配合JsonResult2一起使用
  * </p>
  */
 @Retention(RetentionPolicy.RUNTIME)
