@@ -19,8 +19,11 @@ import java.io.IOException;
 
 /**
  * Json工具类 进行数据类型的转化 String -> Object , Object -> String
+ *
+ * @since 1.0
  */
-public class JsonUtils {
+public final class JsonUtils {
+
     private static Logger logger = LoggerFactory.getLogger(JsonUtils.class);
     private static ObjectMapper mapper;
 
@@ -50,6 +53,13 @@ public class JsonUtils {
         return json;
     }
 
+    /**
+     * 将string转为对象进行处理
+     * @param jsonString string
+     * @param cla 对象类
+     * @param <T> 对应的实体类
+     * @return
+     */
     public static <T> T stringToObject(String jsonString, Class<T> cla) {
         if (StringUtils.isBlank(jsonString)) {
             return null;
@@ -63,24 +73,30 @@ public class JsonUtils {
     }
 
     /**
+     * 字符串转对象
      * TypeReference  一个复杂泛型参数，需要传递真的类型；
-     * @param jsonString
-     * @param typeReference
-     * @param <T>
+     * @param jsonString 字符串内容
+     * @param typeReference 一个复杂泛型参数，需要传递真的类型
+     * @param <T> 对应实体类
      * @return
      */
     public static <T> T stringToObject(String jsonString, TypeReference<T> typeReference) {
-        if (StringUtils.isBlank(jsonString)) {
-            return null;
-        }
-        try {
-            return mapper.readValue(jsonString, typeReference);
-        } catch (IOException e) {
+    	if (StringUtils.isBlank(jsonString)) {
+    		return null;
+    	}
+    	try {
+    		return mapper.readValue(jsonString, typeReference);
+    	} catch (IOException e) {
             logger.error(String.format("convert json string to obj error, json:%s", jsonString), e);
             return null;
-        }
+    	}
     }
 
+    /**
+     * 对象转字符串
+     * @param object 对象
+     * @return
+     */
     public static String objectToString(Object object) {
         if (object == null) {
             return null;
@@ -153,8 +169,4 @@ public class JsonUtils {
         return mapper.reader();
     }
 
-    public static void main(String[] args) {
-//        JsonResult jr = stringToObject("", JsonResult.class);
-//        System.out.println(jr);
-    }
 }
