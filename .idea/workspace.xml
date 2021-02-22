@@ -2,39 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62d28d53-e07b-47b5-a550-5b481a6375b2" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/ArrayUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/CamelCaseUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/ConcurrentHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/Encodes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/ExcelReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/Exceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/Identities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/LocalConfUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/MathUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/Md5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/NetUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/NumberUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/PropertiesLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/RandRomPwd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/ReflectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/Reflections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/RegExp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/RequestUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/SerialNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/SimpleExcelWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/SpringContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/ValidateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/WebUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/aop/aspect/Pagination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/aop/aspect/PaginationAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbproject-h1" beforeDir="false" afterPath="$PROJECT_DIR$/../bbproject-h1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbproject-j1" beforeDir="false" afterPath="$PROJECT_DIR$/../bbproject-j1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plus-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/common/ICodeStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/common/ICodeStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/StringUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -208,7 +186,8 @@
       <workItem from="1613133511686" duration="377000" />
       <workItem from="1613463574804" duration="7956000" />
       <workItem from="1613528834894" duration="753000" />
-      <workItem from="1613896831492" duration="7341000" />
+      <workItem from="1613896831492" duration="7525000" />
+      <workItem from="1613955291991" duration="6201000" />
     </task>
     <task id="LOCAL-00001" summary="忽略文件和基本文档的编写">
       <created>1612881131613</created>
@@ -241,7 +220,8 @@
     <MESSAGE value="工具类string-&gt;json,json-&gt;string的编写" />
     <MESSAGE value="增加全局JSON返回处理，并写入切面类 在返回的过程中进行统一处理" />
     <MESSAGE value="增加全局异常捕获，构建创建mybatis项目的 基本操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加全局异常捕获，构建创建mybatis项目的 基本操作" />
+    <MESSAGE value="整合部分常用的工具类 后面还会在整合一系列的工具类 来支持其他代码的快速完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合部分常用的工具类 后面还会在整合一系列的工具类 来支持其他代码的快速完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -139,6 +139,19 @@
             <artifactId>plus-web</artifactId>
             <version>${project.version}</version> <!-- 使用当前版本的version-->
         </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.walker</groupId>
+            <artifactId>mybatis-paginator</artifactId>
+            <version>1.2.8</version>
+        </dependency>
     </dependencies>
 <!--    需要给后面添加做帮助-->
     <build>
