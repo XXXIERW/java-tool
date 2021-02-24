@@ -12,7 +12,8 @@
     <groupId>cn.java-tool</groupId>
     <artifactId>plus-framework</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
+    <url>https://github.com/XXXIERW/java-tool</url>
     <modules>
 <!--        用于存放基本适配于java8的处理工具类-->
         <module>plus-core</module>
@@ -34,6 +35,11 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <project.encoding>UTF-8</project.encoding>
+        <mybatis.plus.version>3.2.0</mybatis.plus.version>
+        <swagger.version>2.9.2</swagger.version>
+        <swagger.ui.version>1.9.6</swagger.ui.version>
+        <kaptch.version>2.3.2</kaptch.version>
+        <knife4j.version>2.0.7</knife4j.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -67,21 +73,6 @@
                     <exclusion>
                         <groupId>commons-logging</groupId>
                         <artifactId>commons-logging</artifactId>
-                    </exclusion>
-                </exclusions>
-            </dependency>
-            <dependency>
-                <groupId>org.lognet.ss</groupId>
-                <artifactId>grpc-spring-boot-starter</artifactId>
-                <version>2.0.5</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>io.grpc</groupId>
-                        <artifactId>grpc-netty</artifactId>
-                    </exclusion>
-                    <exclusion>
-                        <groupId>org.springframework.boot</groupId>
-                        <artifactId>spring-boot-starter</artifactId>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -200,6 +191,48 @@
                 <version>3.1.0</version>
                 <scope>provided</scope>
             </dependency>
+<!--            引入 mybatis-plus-->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis.plus.version}</version>
+            </dependency>
+            <!-- Spring Boot pagehelper 依赖 -->
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>1.2.5</version>
+            </dependency>
+            <!--            引入丝袜哥进行 接口的统一生成-->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.penggle</groupId>
+                <artifactId>kaptcha</artifactId>
+                <version>${kaptch.version}</version>
+            </dependency>
+
+            <!--引入ui包-->
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>swagger-bootstrap-ui</artifactId>
+                <version>${swagger.ui.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.xiaoymin</groupId>
+                <artifactId>knife4j-spring-boot-starter</artifactId>
+                <version>${knife4j.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <build>
@@ -228,5 +261,18 @@
             </plugin>
         </plugins>
     </build>
+<!--    推送到maven仓库需要的配置 -->
+    <distributionManagement>
+        <repository>
+            <id>plus.framework</id>
+            <name>Internal Releases</name>
+            <url>file:/Users/raveyxie/maven/deploy/</url>
+        </repository>
+        <snapshotRepository>
+            <id>plus.framework</id>
+            <name>Internal Releases</name>
+            <url>file:/Users/raveyxie/maven/deploy/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>

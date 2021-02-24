@@ -1,5 +1,6 @@
-package springMvc;
+package cn.tool.core.springMvc;
 
+import cn.tool.core.springMvc.exception.ResultStatus;
 import lombok.Getter;
 import lombok.ToString;
 
@@ -53,7 +54,7 @@ public class JsonResult2<T> {
 
     /** 业务异常返回业务代码和描述信息
      * @param resultStatus*/
-    public static <T> JsonResult2<T> failure(springMvc.exception.ResultStatus resultStatus) {
+    public static <T> JsonResult2<T> failure(cn.tool.core.springMvc.exception.ResultStatus resultStatus) {
         return new JsonResult2<>(ResultStatus.INTERNAL_SERVER_ERROR, null);
     }
 

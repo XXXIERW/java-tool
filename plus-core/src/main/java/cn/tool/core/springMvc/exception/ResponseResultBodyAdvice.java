@@ -1,5 +1,7 @@
-package springMvc.exception;
+package cn.tool.core.springMvc.exception;
 
+import cn.tool.core.springMvc.JsonResult2;
+import cn.tool.core.springMvc.annotation.ResponseResultBody;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.core.MethodParameter;
 import org.springframework.core.annotation.AnnotatedElementUtils;
@@ -15,8 +17,6 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 import org.springframework.web.util.WebUtils;
-import springMvc.JsonResult2;
-import springMvc.annotation.ResponseResultBody;
 
 import java.lang.annotation.Annotation;
 

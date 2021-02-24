@@ -1,5 +1,6 @@
-package springMvc.annotation;
+package cn.tool.core.springMvc.annotation;
 
+import cn.tool.core.springMvc.JsonResult2;
 import org.springframework.core.MethodParameter;
 import org.springframework.core.annotation.AnnotatedElementUtils;
 import org.springframework.http.MediaType;
@@ -8,7 +9,6 @@ import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
-import springMvc.JsonResult2;
 
 import java.lang.annotation.Annotation;
 

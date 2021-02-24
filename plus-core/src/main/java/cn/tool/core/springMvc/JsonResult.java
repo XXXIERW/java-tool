@@ -1,4 +1,4 @@
-package springMvc;
+package cn.tool.core.springMvc;
 
 import cn.tool.core.common.ICodeStatus;
 import cn.tool.core.utils.JsonUtils;

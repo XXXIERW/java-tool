@@ -1,6 +1,6 @@
 package cn.tool.core.utils;
 
-import springMvc.JsonResult;
+import cn.tool.core.springMvc.JsonResult;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
