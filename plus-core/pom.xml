@@ -5,7 +5,7 @@
     <parent>
         <artifactId>plus-framework</artifactId>
         <groupId>cn.java-tool</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -67,10 +67,6 @@
         <dependency>
         <groupId>org.apache.poi</groupId>
         <artifactId>poi-ooxml</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.lognet.ss</groupId>
-            <artifactId>grpc-spring-boot-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
@@ -135,11 +131,6 @@
         </dependency>
 <!--需要引入web-->
         <dependency>
-            <groupId>cn.java-tool</groupId>
-            <artifactId>plus-web</artifactId>
-            <version>${project.version}</version> <!-- 使用当前版本的version-->
-        </dependency>
-        <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-boot-starter</artifactId>
         </dependency>
@@ -147,10 +138,32 @@
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper-spring-boot-starter</artifactId>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.github.walker</groupId>-->
+<!--            <artifactId>mybatis-paginator</artifactId>-->
+<!--            <version>1.2.8</version>-->
+<!--        </dependency>-->
+<!--        引入丝袜哥 进行配置-->
         <dependency>
-            <groupId>com.github.walker</groupId>
-            <artifactId>mybatis-paginator</artifactId>
-            <version>1.2.8</version>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.penggle</groupId>
+            <artifactId>kaptcha</artifactId>
+        </dependency>
+        <!--        引入文档 knif4j-->
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>knife4j-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 <!--    需要给后面添加做帮助-->

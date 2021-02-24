@@ -1,9 +1,9 @@
-package cn.tool.core.aop.aspect;
-
-import java.lang.annotation.*;
-
-@Documented
-@Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.METHOD})
-public @interface Pagination {
-}
+//package cn.tool.core.aop.aspect;
+//
+//import java.lang.annotation.*;
+//
+//@Documented
+//@Retention(RetentionPolicy.RUNTIME)
+//@Target({ElementType.METHOD})
+//public @interface Pagination {
+//}

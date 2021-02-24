@@ -1,4 +1,4 @@
-package springMvc.config;
+package cn.tool.core.springMvc.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;

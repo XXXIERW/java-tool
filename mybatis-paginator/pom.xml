@@ -11,21 +11,6 @@
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
     </properties>
 
-
-    <distributionManagement>
-        <snapshotRepository>
-            <id>public</id>
-            <name>public</name>
-            <url>http://dev.x.com/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
-        <repository>
-            <id>releases</id>
-            <name>Releases</name>
-            <url>http://dev.x.com/nexus/content/repositories/releases/</url>
-        </repository>
-    </distributionManagement>
-
-
     <dependencies>
 
         <!-- mybatis/orm  系列-->

@@ -1,5 +1,4 @@
 /**
- * Copyright (c) 2015 taqu.cn
  * All rights reserved.
  * @Project Name:tq-core
  * @ClassName:ValidateUtil.java

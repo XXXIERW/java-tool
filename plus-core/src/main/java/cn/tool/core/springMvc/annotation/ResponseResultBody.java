@@ -1,4 +1,4 @@
-package springMvc.annotation;
+package cn.tool.core.springMvc.annotation;
 
 import org.springframework.web.bind.annotation.ResponseBody;
 

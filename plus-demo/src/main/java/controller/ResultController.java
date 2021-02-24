@@ -1,10 +1,10 @@
 package controller;
 
+import cn.tool.core.springMvc.JsonResult2;
+import cn.tool.core.springMvc.annotation.ResponseResultBody;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import springMvc.JsonResult2;
-import springMvc.annotation.ResponseResultBody;
 
 import java.util.HashMap;
 import java.util.Map;

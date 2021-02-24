@@ -1,4 +1,4 @@
-package springMvc.exception;
+package cn.tool.core.springMvc.exception;
 
 import lombok.Getter;
 

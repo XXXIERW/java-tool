@@ -1,5 +1,5 @@
+import cn.tool.core.springMvc.JsonResult2;
 import org.junit.Test;
-import springMvc.JsonResult2;
 
 public class test {
     @Test

@@ -1,19 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62d28d53-e07b-47b5-a550-5b481a6375b2" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/aop/aspect/Pagination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/aop/aspect/PaginationAspect.java" afterDir="false" />
+    <list default="true" id="62d28d53-e07b-47b5-a550-5b481a6375b2" name="默认更改列表" comment="增加mybatis-plus加强组件进行分页内容加强">
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/aop/aspect/RequiresPermissionsDesc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/config/AdminSwagger2Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/config/KaptchaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/exception/ApiException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/exception/ApiNotLoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/exception/ApiReSubmitException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/exception/ApiSignatureException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/exception/AuthenticationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/exception/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/exception/ExecStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/exception/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/exception/RepeatedSubmitFormException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/exception/ValidateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/security/token/FormToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/security/token/TokenUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/security/xss/HTMLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/security/xss/SQLFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/security/xss/XssFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/security/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-demo/src/main/java/controller/KaptchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-demo/src/main/java/controller/LoggerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-demo/src/main/java/controller/swaggerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbproject-h1" beforeDir="false" afterPath="$PROJECT_DIR$/../bbproject-h1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbproject-j1" beforeDir="false" afterPath="$PROJECT_DIR$/../bbproject-j1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-paginator/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-paginator/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-paginator/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plus-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/common/ICodeStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/common/ICodeStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/aop/aspect/Pagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/aop/aspect/Pagination.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/aop/aspect/PaginationAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/aop/aspect/PaginationAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/exception/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/exception/ServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/ValidateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/ValidateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/WebUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/WebUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plus-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-demo/src/main/java/controller/ResultController.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-demo/src/main/java/controller/ResultController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-web-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plus-web-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plus-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/JsonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/springMvc/JsonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/JsonResult2.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/springMvc/JsonResult2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/annotation/ResponseResultBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/springMvc/annotation/ResponseResultBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/annotation/ResponseResultBodyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/springMvc/annotation/ResponseResultBodyAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/config/WebMvcConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/springMvc/config/WebMvcConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/exception/ResponseResultBodyAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/springMvc/exception/ResponseResultBodyAdvice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/exception/ResultException.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/springMvc/exception/ResultException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-web/src/main/java/springMvc/exception/ResultStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/springMvc/exception/ResultStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-web/src/test/java/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-web/src/test/java/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../user_manage" beforeDir="false" afterPath="$PROJECT_DIR$/../user_manage" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +79,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/plus-core/src/main/resources/logback-spring.xml" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -64,11 +103,11 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core" />
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6656848" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -77,7 +116,12 @@
       <recent name="cn.tool" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.tool.core.exception" />
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core" />
+      <recent name="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/aop/aspect" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -187,7 +231,9 @@
       <workItem from="1613463574804" duration="7956000" />
       <workItem from="1613528834894" duration="753000" />
       <workItem from="1613896831492" duration="7525000" />
-      <workItem from="1613955291991" duration="6201000" />
+      <workItem from="1613955291991" duration="6920000" />
+      <workItem from="1613974633840" duration="15063000" />
+      <workItem from="1614092332888" duration="804000" />
     </task>
     <task id="LOCAL-00001" summary="忽略文件和基本文档的编写">
       <created>1612881131613</created>
@@ -196,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612881131613</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加mybatis-plus加强组件进行分页内容加强">
+      <created>1613974000679</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613974000679</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +274,8 @@
     <MESSAGE value="增加全局JSON返回处理，并写入切面类 在返回的过程中进行统一处理" />
     <MESSAGE value="增加全局异常捕获，构建创建mybatis项目的 基本操作" />
     <MESSAGE value="整合部分常用的工具类 后面还会在整合一系列的工具类 来支持其他代码的快速完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="整合部分常用的工具类 后面还会在整合一系列的工具类 来支持其他代码的快速完成" />
+    <MESSAGE value="增加mybatis-plus加强组件进行分页内容加强" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加mybatis-plus加强组件进行分页内容加强" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
