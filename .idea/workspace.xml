@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62d28d53-e07b-47b5-a550-5b481a6375b2" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/aop/aspect/AccessLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/aop/aspect/AccessLimitAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plus-core/src/test/java/test.java" afterDir="false" />
+    <list default="true" id="62d28d53-e07b-47b5-a550-5b481a6375b2" name="默认更改列表" comment="增加一系列内容">
+      <change afterPath="$PROJECT_DIR$/plus-core/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/rsa/advice/DecryptHttpInputMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/rsa/advice/EncryptRequestBodyAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/rsa/advice/EncryptResponseBodyAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/rsa/annotation/Decrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/rsa/annotation/EnableSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/rsa/annotation/Encrypt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/rsa/config/SecretKeyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/rsa/exception/EncryptRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/rsa/util/Base64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/rsa/util/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/rsa/util/RSAUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbproject-h1" beforeDir="false" afterPath="$PROJECT_DIR$/../bbproject-h1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bbproject-j1" beforeDir="false" afterPath="$PROJECT_DIR$/../bbproject-j1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/AutoGenerateCodeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/plus-core/src/main/java/cn/tool/core/utils/AutoGenerateCodeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../user_manage" beforeDir="false" afterPath="$PROJECT_DIR$/../user_manage" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +78,7 @@
     <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6656848" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -205,7 +216,9 @@
       <workItem from="1616667817650" duration="240000" />
       <workItem from="1616668112120" duration="551000" />
       <workItem from="1616685529452" duration="1557000" />
-      <workItem from="1616979819750" duration="737000" />
+      <workItem from="1616979819750" duration="1702000" />
+      <workItem from="1617256110156" duration="57000" />
+      <workItem from="1620984513660" duration="706000" />
     </task>
     <task id="LOCAL-00001" summary="忽略文件和基本文档的编写">
       <created>1612881131613</created>
@@ -248,7 +261,8 @@
     <MESSAGE value="整合部分常用的工具类 后面还会在整合一系列的工具类 来支持其他代码的快速完成" />
     <MESSAGE value="增加mybatis-plus加强组件进行分页内容加强" />
     <MESSAGE value="推送最新代码 解决循环引用问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="推送最新代码 解决循环引用问题" />
+    <MESSAGE value="增加一系列内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加一系列内容" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

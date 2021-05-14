@@ -197,6 +197,12 @@
                 <artifactId>mybatis-plus-boot-starter</artifactId>
                 <version>${mybatis.plus.version}</version>
             </dependency>
+<!--            引入生成器-->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-generator</artifactId>
+                <version>3.2.0</version>
+            </dependency>
             <!-- Spring Boot pagehelper 依赖 -->
             <dependency>
                 <groupId>com.github.pagehelper</groupId>
@@ -233,6 +239,7 @@
                 <artifactId>knife4j-spring-boot-starter</artifactId>
                 <version>${knife4j.version}</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
     <build>
